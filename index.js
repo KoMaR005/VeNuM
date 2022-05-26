@@ -17,27 +17,27 @@ const start = (hisoka = new Client()) => {
     console.log(color('=> Bot successfully loaded! Database:', 'yellow'), color(loader.getAllDirFiles('./database').length), color('Library:', 'yellow'), color(loader.getAllDirFiles('./lib').length), color('Function:', 'yellow'), color(loader.getAllDirFiles('./function').length))
     console.log(color('=> Source code version:', 'yellow'), color(version))
     console.log(color('=> Bugs? Errors? Suggestions? Visit here:', 'yellow'), color(bugs.url))
-    console.log(color('[hisoka]'), color('HisokaBOT is now online!', 'yellow'))
-    console.log(color('[DEV]', 'cyan'), color('Welcome back, Owner! Hope you are doing well~', 'magenta'))
+    console.log(color('[☠V☠e☠N☠o☠M☠]'), color('☠V☠e☠N☠o☠M☠ теперь онлайн!', 'yellow'))
+    console.log(color('[DEV]', 'cyan'), color('С возвращением, владелец! Надеюсь у тебя все хорошо~', 'magenta'))
 
     //loader.nocache('../message/index.js', (m) => console.log(color('[WATCH]', 'orange'), color(`=> '${m}'`, 'yellow'), 'file is updated!'))
 
     hisoka.onStateChanged((state) => {
-        console.log(color('[HISOKA]'), state)
+        console.log(color('[☠V☠e☠N☠o☠M☠]'), state)
         if (state === 'UNPAIRED' || state === 'CONFLICT' || state === 'UNLAUNCHED') hisoka.forceRefocus()
     })
 
     hisoka.onAddedToGroup(async (chat) => {
         const gc = await hisoka.getAllGroups()
-        console.log(color('[HISOKA]'), 'Added a to new group. Name:', color(chat.contact.name, 'yellow'), 'Total members:', color(chat.groupMetadata.participants.length, 'yellow'))
+        console.log(color('[☠V☠e☠N☠o☠M☠]'), 'Добавил в новую группу. Имя:', color(chat.contact.name, 'yellow'), 'Total members:', color(chat.groupMetadata.participants.length, 'yellow'))
         if (chat.groupMetadata.participants.includes(ownerNumber)) {
             await hisoka.sendText(chat.id, ind.addedGroup(chat))
         } else if (gc.length > groupLimit) {
-            await hisoka.sendText(chat.id, `Max groups reached!\n\nCurrent status: ${gc.length}/${groupLimit}`)
+            await hisoka.sendText(chat.id, `Достигнуто максимальное количество групп!\n\nCurrent status: ${gc.length}/${groupLimit}`)
             await hisoka.deleteChat(chat.id)
             await hisoka.leaveGroup(chat.id)
         } else if (chat.groupMetadata.participants.length < memberLimit) {
-            await hisoka.sendText(chat.id, `Need at least ${memberLimit} members in group!`)
+            await hisoka.sendText(chat.id, `В группе должно быть не менее ${memberLimit} участников!`)
             await hisoka.deleteChat(chat.id)
             await hisoka.leaveGroup(chat.id)
         } else {
@@ -49,9 +49,9 @@ const start = (hisoka = new Client()) => {
         hisoka.getAmountOfLoadedMessages()
             .then((msg) => {
                 if (msg >= 1000) {
-                    console.log(color('[HISOKA]'), color(`Loaded message reach ${msg}, cuting message cache...`, 'yellow'))
+                    console.log(color('[☠V☠e☠N☠o☠M☠]'), color(`Загруженное сообщение достигает ${msg}, вырезание кеша сообщений...`, 'yellow'))
                     hisoka.cutMsgCache()
-                    console.log(color('[HISOKA]'), color('Cache deleted!', 'yellow'))
+                    console.log(color('[☠V☠e☠N☠o☠M☠]'), color('Кэш удален!', 'yellow'))
                 }
             })
         msgHandler(bocchi, message)
@@ -61,7 +61,7 @@ const start = (hisoka = new Client()) => {
     hisoka.onIncomingCall(async (callData) => {
         await hisoka.sendText(callData.peerJid, ind.blocked(ownerNumber))
         await hisoka.contactBlock(callData.peerJid)
-        console.log(color('[BLOCK]', 'red'), color(`${callData.peerJid} has been blocked.`, 'yellow'))
+        console.log(color('[BLOCK]', 'red'), color(`${callData.peerJid} был заблокирован.`, 'yellow'))
     })
 
     hisoka.onGlobalParticipantsChanged(async (event) => {

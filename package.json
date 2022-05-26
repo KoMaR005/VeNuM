@@ -10,12 +10,12 @@
   "author": "☣ⒹⓞⓃ ⓀⓞⓂⓐⓇ☣",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KoMaR005/VeNoM.git"
+    "url": "https://github.com/KoMaR005/VeNuM.git"
   },
   "bugs": {
-    "url": "https://github.com/KoMaR005/VeNoM/issues"
+    "url": "https://github.com/KoMaR005/VeNuM/issues"
   },
-  "homepage": "https://github.com/KoMaR005/VeNoM",
+  "homepage": "https://github.com/KoMaR005/VeNuM",
   "license": "MIT",
   "dependencies": {
     "@justalk/pornhub-api": "^3.4.0",

@@ -1,7 +1,7 @@
 {
   "name": "☠V☠e☠N☠o☠M☠",
   "version": "0.0.1",
-  "description": "HisokaBOT is a multipurpose WhatsApp bot.",
+  "description": "☠V☠e☠N☠o☠M☠ — многоцелевой бот для WhatsApp..",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/test.js",
@@ -10,12 +10,12 @@
   "author": "☣ⒹⓞⓃ ⓀⓞⓂⓐⓇ☣",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dxxoo/HisokaBOT-Whatsapp-Bot.git"
+    "url": "https://github.com/KoMaR005/VeNoM.git"
   },
   "bugs": {
-    "url": "https://github.com/dxxoo/HisokaBOT-Whatsapp-Bot/issues"
+    "url": "https://github.com/KoMaR005/VeNoM/issues"
   },
-  "homepage": "https://github.com/dxxoo/HisokaBOT-Whatsapp-Bott",
+  "homepage": "https://github.com/KoMaR005/VeNoM",
   "license": "MIT",
   "dependencies": {
     "@justalk/pornhub-api": "^3.4.0",

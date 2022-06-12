@@ -70,7 +70,7 @@ Send basic text
 
 ```javascript
 await client
-  .sendText('000000000000@c.us', '👋 Hello from venom!')
+  .sendText('000000000000@c.us', '👋 Hello from ☆☬VeNoM☬☆!')
   .then((result) => {
     console.log('Result: ', result); //return object success
   })

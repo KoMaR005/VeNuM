@@ -1,0 +1,21 @@
+{
+  "name": "☆☬VeNoM☬☆",
+  "description": "Subscribete a The Shadow Borkers - Bot (≧▽≦)",
+  "repository": "https://github.com/BrunoSobrino/☆☬VeNoM☬☆",
+  "logo": "https://raw.githubusercontent.com/BrunoSobrino/☆☬VeNoM☬☆/master/Menu2.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  },
+  {
+    "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+  },
+  {
+    "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+  }    
+ ]
+}

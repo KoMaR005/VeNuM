@@ -19,7 +19,7 @@ ADVERTENCIA: HEROKU ESTA SUSPENDIENDO CUENTAS POR SOLO USAR EL BOT, POR AHORA NO
 
 ### `—◉ ⚙️ AJUSTES ⚙️`
 - CLONAR EL REPOSITORIO [Aqui](https://github.com/BrunoSobrino/☆☬VeNoM☬☆/fork)
-- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/BrunoSobrino/☆☬VeNoM☬☆/blob/master/config.js)
+- CAMBIAR NÚMERO DEL OWNER [Aqui](https://github.com/KoMaR005/VeNuM/blob/master/config.js)
 
 ### `—◉ 👾 ACTIVAR EN TERMUX 👾`
 ```bash
@@ -89,7 +89,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 ## `EDITOR Y PORPIETARIO DEL BOT` 
-[![BrunoSobrino](https://avatars.githubusercontent.com/u/90165013?s=400&u=946f5c00c527c7e6fa2ef5148c6ad56270bb600e&v=4size=100)](https://github.com/BrunoSobrino/) 
+[![☣ⒹⓞⓃ ⓀⓞⓂⓐⓇ☣](https://i.ibb.co/jDrKZkj/null-20220612-WA0205.jpg)] 
 
-`The Mystic - Bot __________ By Bruno Sobrino`
+`☆☬VeNoM☬☆- Bot __________ By ☣ⒹⓞⓃ ⓀⓞⓂⓐⓇ☣`
 

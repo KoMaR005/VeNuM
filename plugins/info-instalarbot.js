@@ -19,7 +19,7 @@ let text = `
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
 > pkg install yarn
-> git clone https://github.com/BrunoSobrino/☆☬VeNoM☬☆
+> git clone https://github.com/KoMaR005/VeNuM
 > cd ☆☬VeNoM☬☆
 > npm install
 > yarn install 

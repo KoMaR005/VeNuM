@@ -15,7 +15,7 @@ ${groupMetadata.subject}
 ${groupMetadata.desc?.toString() || 'БЕЗ ОПИСАНИЯ'}
 
 *ВСЕГО УЧАСТНИКОВ:*
-${participants.length} Participantes
+${participants.length} Участников
 
 *СОЗДАТЕЛЬ ГРУППЫ:* 
 @${owner.split('@')[0]}

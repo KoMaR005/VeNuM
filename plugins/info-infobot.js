@@ -41,7 +41,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: nul
 title: 'Информация о боте',
 body: '☆☬VeNoM☬☆ ﹣ ʙᴏᴛ',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
-sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}})
+sourceUrl: `https://https://github.com/KoMaR005/`}}})
 }
 handler.help = ['infobot', 'speed']
 handler.tags = ['info', 'tools']

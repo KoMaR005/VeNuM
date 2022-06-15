@@ -428,7 +428,7 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 ° ඬ⃟👑 _${usedPrefix}delprem *<@tag>*_
 ° ඬ⃟👑 _${usedPrefix}listprem_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://https://github.com/KoMaR005', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['📮 𝙳𝙾𝙽𝙰𝚁 📮', '/donasi'],
 ['🌹 ВЛАДЕЛЕЦ 🌹', '/owner'],
 ['🐾 ИНФО𝙱𝙾𝚃 🐾', '/infobot']

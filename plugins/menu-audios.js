@@ -8,22 +8,22 @@ try {
 //let about = (await conn.getStatus(who).catch(console.error) || {}).status || ''
 let name = await conn.getName(m.sender)
 let str = `
-*ミ💖 𝙷𝙾𝙻𝙰 _${name}_ 💖彡*
+*ミ💖 САЛАМ АЛЕЙКУМ _${name}_ 💖彡*
 
-*<𝐌𝐄𝐍𝐔 𝐀𝐔𝐃𝐈𝐎𝐒/>*
-*- 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)*
+*<МЕНЮ АУДИО/>*
+*- Напишите следующие слова или сборы без предпочтения (#, /, *, .)*
 
-° ඬ⃟🔊 _Quien es tu sempai botsito 7w7_
-° ඬ⃟🔊 _Te diagnostico con gay_
-° ඬ⃟🔊 _A nadie le importa_
-° ඬ⃟🔊 _Fiesta del admin_
-° ඬ⃟🔊 _Fiesta del administrador_ 
-° ඬ⃟🔊 _Vivan los novios_
-° ඬ⃟🔊 _Feliz cumpleaños_
+° ඬ⃟🔊 _Кто твой семпай боцито 7w7_
+° ඬ⃟🔊 _Я диагностирую у тебя гей_
+° ඬ⃟🔊 _Никто не заботится_
+° ඬ⃟🔊 _Административная вечеринка_
+° ඬ⃟🔊 _Административная вечеринка_ 
+° ඬ⃟🔊 _Да здравствуют жених и невеста_
+° ඬ⃟🔊 _С днем ​​рождения_
 ° ඬ⃟🔊 _Noche de paz_
-° ඬ⃟🔊 _Buenos dias_
-° ඬ⃟🔊 _Buenos tardes_
-° ඬ⃟🔊 _Buenos noches_
+° ඬ⃟🔊 _Доброе утро_
+° ඬ⃟🔊 _Добрый день_
+° ඬ⃟🔊 _Спокойной ночи_
 ° ඬ⃟🔊 _Audio hentai_
 ° ඬ⃟🔊 _Chica lgante_
 ° ඬ⃟🔊 _Feliz navidad_
@@ -52,12 +52,12 @@ let str = `
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
 `.trim()
-conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/KoMaR005', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
 ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
 }}
 handler.help = ['menu2', 'help2', '?2', 'menuaudios']
 handler.tags = ['main']
-handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.command = /^(меню2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
 handler.fail = null
 export default  handler

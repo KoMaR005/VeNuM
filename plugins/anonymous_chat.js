@@ -40,6 +40,6 @@ break
 }}}
 handler.help = ['start', 'leave', 'next']
 handler.tags = ['anonymous']
-handler.command = ['start', 'leave', 'next']
+handler.command = ['старт', 'покинуть', 'следущий']
 handler.private = true
 export default handler

@@ -10,16 +10,16 @@ let res2 = await fetch(`https://myanimelist.net/anime/${mal_id}`)
 if (!res2.ok) throw await res2.text()
 let html = await res2.text()
 let animeingfo = `✨ *Titulo:* ${title}
-🎆 *Episodios:* ${episodes}
-💬 *Transmitido en:* ${type}
-💌 *Rating:* ${rated}
-❤️ *Score:* ${score}
-👥 *Miembros:* ${members}
-💚 *Sinopsis en inglés:* ${synopsis}
-🌐 *URL*: ${url}`
+🎆 *Эпизоды:* ${episodes}
+💬 *В эфире:* ${type}
+💌 *Рейтинг:* ${rated}
+❤️ *Счет:* ${score}
+👥 *Члены:* ${members}
+💚 *Синопсис на английском языке:* ${synopsis}
+🌐 *ССЫЛКА*: ${url}`
 conn.sendFile(m.chat, image_url, '', animeingfo, m)
 }
 handler.help = ['animeinfo <anime>']
 handler.tags = ['internet']
-handler.command = /^(animeinfo)$/i
+handler.command = /^(анимэинфо)$/i
 export default handler

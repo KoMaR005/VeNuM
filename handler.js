@@ -631,7 +631,7 @@ export async function participantsUpdate({ id, participants, action }) {
     let chat = global.db.data.chats[id] || {}
     let text = ''
     switch (action) {
-        case 'add':
+        case 'добавить':
         case 'remove':
             if (chat.welcome) {
                 let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
@@ -641,12 +641,12 @@ export async function participantsUpdate({ id, participants, action }) {
                         pp = await this.profilePictureUrl(user, 'image')
                     } catch (e) {
                     } finally {
-                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*𝚂𝙸𝙽 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽*') :
-                            (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', await this.getName(user))
+                        text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Добро пожаловать, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*БЕЗ ОПИСАНИЯ*') :
+                            (chat.sBye || this.bye || conn.bye || 'До Свидания, @user!')).replace('@user', await this.getName(user))
                             let apii = await this.getFile(pp)
                             this.sendHydrated(id, text, groupMetadata.subject, apii.data, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
-                            [(action == 'add' ? '𝙱𝙸𝙴𝙽𝚅𝙴𝙽𝙸𝙳𝙾' : '𝙰𝙳𝙸𝙾𝚂'), 'ura'],    
-                            ['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
+                            [(action == 'add' ? 'ДОБРО ПОЖАЛОВАТЬ' : 'ДО СВИДАНИЯ'), 'ura'],    
+                            ['ГЛАВНОЕ МЕНЮ', '/menu']
                             ], '', { mentions: [user]})
                            }
                     }

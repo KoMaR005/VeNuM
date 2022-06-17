@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Fiesta del admin|fiesta del admin/
+handler.customPrefix = /Админы|fiesta del admin/
 handler.command = new RegExp
 export default handler

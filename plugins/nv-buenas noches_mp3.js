@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /buenas noches|Бот|Boanoite|boanoite/
+handler.customPrefix = /buenas noches|Buenas noches|Boanoite|boanoite/
 handler.command = new RegExp
 export default handler

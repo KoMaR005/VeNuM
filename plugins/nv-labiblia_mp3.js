@@ -9,6 +9,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /laoracion|Бот|La oración|La biblia|La oración|la biblia|La Biblia/
+handler.customPrefix = /laoracion|бот|La oración|La biblia|La oración|la biblia|La Biblia/
 handler.command = new RegExp
 export default handler

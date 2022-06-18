@@ -21,7 +21,7 @@ say('The Mystic - Bot\nWhatsApp - Bot - MD', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`Bot creado por ☣ⒹⓞⓃ ⓀⓞⓂⓐⓇ☣`, {
+say(`Bot creado por Bruno Sobrino`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']

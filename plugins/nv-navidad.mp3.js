@@ -9,6 +9,6 @@ type: 'audioMessage', // paksa tanpa convert di ffmpeg
 ptt: true // true diatas ga work, sebab dipaksa tanpa convert ;v
 })
 }
-handler.customPrefix = /Feliz navidad|feliz navidad|Merry Christmas|merry chritmas/
+handler.customPrefix = /Тишина|feliz navidad|Merry Christmas|merry chritmas/
 handler.command = new RegExp
 export default handler

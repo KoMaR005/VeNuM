@@ -9,7 +9,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /Nyapasu|Nyanpasu|nyapasu|Nyapasu|Gambure|Yabure/
+handler.customPrefix = /Решим вопрос|Nyanpasu|nyapasu|Nyapasu|Gambure|Yabure/
 handler.command = new RegExp
 export default handler
 

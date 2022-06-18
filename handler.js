@@ -646,7 +646,7 @@ export async function participantsUpdate({ id, participants, action }) {
                             let apii = await this.getFile(pp)
                             this.sendHydrated(id, text, groupMetadata.subject, apii.data, 'https://github.com/BrunoSobrino/TheMystic-Bot-MD', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
                             [(action == 'add' ? 'ДОБРО ПОЖАЛОВАТЬ' : 'ДО СВИДАНИЯ'), 'ura'],    
-                            ['ГЛАВНОЕ МЕНЮ', '/menu']
+                            ['ОСНОВНОЕ МЕНЮ', '/menu']
                             ], '', { mentions: [user]})
                            }
                     }

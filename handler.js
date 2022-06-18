@@ -652,11 +652,11 @@ export async function participantsUpdate({ id, participants, action }) {
                     }
             }
             break
-        case 'promote':
+        case 'датьадмина':
         case 'daradmin':
         case 'darpoder':
             text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
-        case 'demote':
+        case 'снятьадмина':
         case 'quitarpoder':
         case 'quitaradmin':
             if (!text)

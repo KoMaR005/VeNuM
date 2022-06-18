@@ -8,7 +8,7 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /fiesta del administrador/i
+handler.customPrefix = /Вирусы/i
 handler.command = new RegExp
 handler.fail = null
 handler.exp = 100

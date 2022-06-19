@@ -161,16 +161,16 @@ let str = `
 
 *<ГРУППЫ/>* 
 
-° ඬ⃟💎 _${usedPrefix}add *<numero>*_
-° ඬ⃟💎 _${usedPrefix}kick *<@tag>*_
+° ඬ⃟💎 _${usedPrefix}добавить *<numero>*_
+° ඬ⃟💎 _${usedPrefix}удалить *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}grupo *<abrir / cerrar>*_
-° ඬ⃟💎 _${usedPrefix}promote *<@tag>*_
+° ඬ⃟💎 _${usedPrefix}датьадмина *<@tag>*_
 ° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
 ° ඬ⃟💎 _admins *<texto>*_ (использовать без префикса)
-° ඬ⃟💎 _${usedPrefix}demote *<@tag>*_
-° ඬ⃟💎 _${usedPrefix}infogroup_
+° ඬ⃟💎 _${usedPrefix}снятьадмина *<@tag>*_
+° ඬ⃟💎 _${usedPrefix}инфогруппы_
 ° ඬ⃟💎 _${usedPrefix}link_
-° ඬ⃟💎 _${usedPrefix}setname *<texto>*_
+° ඬ⃟💎 _${usedPrefix}сменитьимя *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setdesc *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}invocar *<texto>*_
 ° ඬ⃟💎 _${usedPrefix}setwelcome *<texto>*_

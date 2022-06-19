@@ -29,7 +29,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭═┅〘 ☆☬VeNoM☬☆- 𝐁𝐨𝐭 〙═╮
+╭═┅〘 𝐓𝐡𝐞 𝐌𝐲𝐬𝐭𝐢𝐜 - 𝐁𝐨𝐭 〙═╮
 ║ 👋🏻 𝙷𝙾𝙻𝙰 %name!
 ║ 
 ║ 📅 𝙵𝙴𝙲𝙷𝙰: *%week, %date*
@@ -88,14 +88,14 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let uptime = clockString(_uptime)
     let totalreg = Object.keys(global.db.data.users).length
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
-    let help = Object.values(global.plugins).filter(plugin => !plugin.выклd).map(plugin => {
+    let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
       return {
         help: Array.isArray(plugin.tags) ? plugin.help : [plugin.help],
         tags: Array.isArray(plugin.tags) ? plugin.tags : [plugin.tags],
         prefix: 'customPrefix' in plugin,
         limit: plugin.limit,
         premium: plugin.premium,
-        вклd: !plugin.выклd,
+        enabled: !plugin.disabled,
       }
     })
     for (let plugin of help)

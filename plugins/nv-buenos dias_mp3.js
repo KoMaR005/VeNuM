@@ -2,7 +2,7 @@ import util from 'util'
 import path from 'path'
 
 let handler = async (m, { conn }) => {
-if (!db.data.chats[m.chat].аудио && m.isGroup) throw 0
+if (!db.data.chats[m.chat].audios && m.isGroup) throw 0
 let vn = './media/Buenos-dias-2.mp3'
 conn.sendFile(m.chat, vn, 'Buenos-dias-2.mp3', null, m, true, {
 type: 'audioMessage', 

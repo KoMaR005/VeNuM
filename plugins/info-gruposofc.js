@@ -1,6 +1,6 @@
 let media = './Menu2.jpg'
 let handler = async (m, { conn, command }) => conn.sendButton(m.chat, `
-*Привет 👋🏻, присоединяйтесь к официальным группам, чтобы хорошо провести время с помощью Бота или пообщаться с семьей ☆☬VeNoM☬☆ - Bot*
+*Hola 👋🏻, unete a los grupos oficiales para pasar un rato agradable usando el Bot o platicando con la familia de The Shadow Borkers - Bot*
 
 *➤ Grupos oficiales del Bot:*
 *1.-* https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ
@@ -32,6 +32,6 @@ let handler = async (m, { conn, command }) => conn.sendButton(m.chat, `
 *14.-* https://chat.whatsapp.com/IR0NQSDFD6UBMT5q30QIFt
 
 *15.-* https://chat.whatsapp.com/CMd00ZYfwXZHEoEIswHpv3
-`.trim(), wm, media, [['Перейти в ОСНОВНОЕ МЕНЮ', '.меню']], m)
+`.trim(), wm, media, [['𝙸𝚁 𝙰𝙻 𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '.menu']], m)
 handler.command = /^linkgc|grupos$/i
 export default handler

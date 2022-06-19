@@ -21,11 +21,11 @@ var user = number + '@s.whatsapp.net'
 } catch (e) {
 } finally {
 conn.groupParticipantsUpdate(m.chat, [user], 'promote')
-conn.reply(m.chat, `*[ ✅ ] ВЫПОЛНЕНО УСПЕШНО*`, m)
+conn.reply(m.chat, `*[ ✅ ] ÓRDENES RECIBIDAS*`, m)
 }}
 handler.help = ['*593xxx*','*@usuario*','*responder chat*'].map(v => 'promote ' + v)
 handler.tags = ['group']
-handler.command = /^(датьадмина|daradmin|darpoder)$/i
+handler.command = /^(promote|daradmin|darpoder)$/i
 handler.group = true
 handler.admin = true
 handler.botAdmin = true

@@ -10,6 +10,6 @@ conn.reply(m.chat, `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝚄𝚂𝚄𝙰𝚁𝙸�
 }
 handler.help = ['banuser']
 handler.tags = ['owner']
-handler.command = /^заблокировать$/i
+handler.command = /^banuser$/i
 handler.rowner = true
 export default handler

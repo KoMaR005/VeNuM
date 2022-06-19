@@ -14,7 +14,7 @@ if (i !== 0) conn.reply(fixedNumber, pesan.trim(), m)
 }}
 handler.help = ['spamwa <number>|<mesage>|<no of messages>']
 handler.tags = ['General']
-handler.command = /^спам(wa)?$/i
+handler.command = /^spam(wa)?$/i
 handler.group = false
 handler.premium = false
 handler.private = true

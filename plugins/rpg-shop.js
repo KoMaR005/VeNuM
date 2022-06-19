@@ -17,6 +17,6 @@ handler.help = ['Buy', 'Buyall']
 handler.tags = ['xp']
 handler.command = ['buy', 'buyall'] 
 
-handler.выклd = false
+handler.disabled = false
 
 export default handler

@@ -18,9 +18,9 @@ export async function all(m, chatUpdate) {
         let plugin = global.plugins[name]
         if (!plugin)
             continue
-        if (plugin.выклd)
+        if (plugin.disabled)
             continue
-        if (!opts['ограничивать'])
+        if (!opts['restrict'])
             if (plugin.tags && plugin.tags.includes('admin'))
                 continue
         if (typeof plugin !== 'function')

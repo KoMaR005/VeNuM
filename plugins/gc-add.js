@@ -24,7 +24,7 @@ try {
             to: m.chat,
         },
         content: users.map(jid => ({
-            tag: 'add',
+            tag: 'добавить',
             attrs: {},
             content: [{ tag: 'participant', attrs: { jid } }]
 }))})

@@ -6,7 +6,7 @@ handler.all = async function (m) {
 let chat = db.data.chats[m.chat]
 let user = db.data.users[m.sender]
 
-if (chat.autosticker && m.isGroup) {
+if (chat.автостикер && m.isGroup) {
 let q = m
 let stiker = false
 let mime = (q.msg || q).mimetype || q.mediaType || ''
@@ -16,7 +16,7 @@ let img = await q.download?.()
 if (!img) return
 stiker = await sticker(img, false, packname, author)
 } else if (/video/g.test(mime)) {
-if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await this.sendButton(m.chat, '*[❗ИНФОРМАЦИЯ❗] ВИДЕО НЕ МОЖЕТ БЫТЬ БОЛЕЕ 7 СЕКУНД*', wm, [['ОТКЛЮЧИТЬ АВТОСТИКЕР', '/disable autosticker']], m)
+if (/video/g.test(mime)) if ((q.msg || q).seconds > 8) return await this.sendButton(m.chat, '*[❗ИНФОРМАЦИЯ❗] ВИДЕО НЕ МОЖЕТ БЫТЬ БОЛЕЕ 7 СЕКУНД*', wm, [['ОТКЛЮЧИТЬ АВТОСТИКЕР', '/выкл автостикер']], m)
 let img = await q.download()
 if (!img) return
 stiker = await sticker(img, false, packname, author)

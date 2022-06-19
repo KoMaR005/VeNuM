@@ -74,7 +74,7 @@ handler.help = ['transfer'].map(v => v + ' [tipo] [cantidad] [@tag]')
 handler.tags = ['xp']
 handler.command = ['payxp', 'transfer', 'darxp'] 
 
-handler.disabled = false
+handler.выклd = false
 
 export default handler
 

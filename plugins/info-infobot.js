@@ -12,8 +12,8 @@ const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isCha
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us'))
 const groups = chats.filter(([id]) => id.endsWith('@g.us'))
 const used = process.memoryUsage()
-const { restrict } = global.db.data.settings[conn.user.jid] || {}
-const { autoread } = global.opts
+const { ограничивать } = global.db.data.settings[conn.user.jid] || {}
+const { авточтение } = global.opts
 let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
@@ -26,13 +26,13 @@ let info = `
 ╠➥ [🔐] Частные чаты: *${chats.length - groups.length}*
 ╠➥ [🦜] Групповой чат: *${groups.length}* 
 ╠➥ [💡] Всего чатов: *${chats.length}* 
-╠➥ [🚀] Активность: *${uptime}*
+╠➥ [🚀] 𝙰𝙲𝚃𝙸𝚅𝙸𝙳𝙰𝙳: *${uptime}*
 ╠➥ [🎩] Пользователи: *${totalreg} числа*
 ╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
 ╠  *${speed}* 
-╠  *милисекунд*
-╠➥ [☑️] АВТОЧИТАНИЕ: ${autoread ? '*активирован*' : '*деактивирован*'}
-╠➥ [❗] ОГРАНИЧИВАТЬ: ${restrict ? '*активирован*' : '*деактивирован*'} 
+╠  *𝚖𝚒𝚕𝚒𝚜𝚎𝚐𝚞𝚗𝚍𝚘𝚜*
+╠➥ [☑️] АВТОЧИТАНИЕ: ${авточтение ? '*активирован*' : '*деактивирован*'}
+╠➥ [❗] ОГРАНИЧИВАТЬ: ${ограничивать ? '*активирован*' : '*деактивирован*'} 
 ╠
 ╠═〘 ☆☬VeNoM☬☆ - 𝐁𝐨𝐭 〙 ═
 `.trim() 

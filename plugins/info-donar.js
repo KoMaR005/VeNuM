@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 let name = await conn.getName(m.sender)
 let donar =`
 *┏ ┅ ━━━━━━━━━ ┅ ━*
-*┇          「 ПОЖЕРТВОВАТЬ 」*
+*┇          「 𝐃𝐎𝐍𝐀𝐑 」*
 *┣ ┅ ━━━━━━━━━ ┅ ━*
 *┃ Салам Алекум ${name} 💙*
 *┃*
@@ -15,7 +15,7 @@ let donar =`
 *┃ 646180192175788481*
 *┃ ➤ 𝙱𝙰𝙽𝙲𝙾: STP* 
 *┃ ➤ 𝙱𝙴𝙽𝙴𝙵𝙸𝙲𝙸𝙰𝚁𝙸𝙾:* 
-*┃ ☣ⒹⓞⓃ ⓀⓞⓂⓐⓇ☣* 
+*┃ BRUNO SOBRINO* 
 *┃ ➤ 𝙲𝙾𝙽𝙲𝙴𝙿𝚃𝙾: APOYO*  
 *┃ ➤ 𝙿𝙰𝚈𝙿𝙰𝙻: https://www.paypal.me/TheShadowBrokers133*
 *┃*
@@ -26,7 +26,7 @@ let donar =`
 *┃ wa.me/79773452127*
 *┗ ┅ ━━━━━━━━━ ┅ ━*
 `.trim()
-conn.sendHydrated(m.chat, donar, wm, null, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', null, null, [['ОСНОВНОЕ МЕНЮ МЕНЮ', '/menu']], m)}
+conn.sendHydrated(m.chat, donar, wm, null, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', null, null, [['ГЛАВНОЕ МЕНЮ', '/menu']], m)}
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)|donar|apoyar$/i

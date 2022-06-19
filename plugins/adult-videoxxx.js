@@ -1,5 +1,5 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
-if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*[❗ИНФО❗] КОМАНДЫ +𝟷𝟾 В ЭТОЙ ГРУППЕ ОТКЛЮЧЕНЫ, ЕСЛИ ВЫ АДМИН И ХОТИТЕ АКТИВИРОВАТЬ ИХ, ИСПОЛЬЗУЙТЕ КОМАНДУ #enable modohorny*'   
+if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*[❗ИНФО❗] КОМАНДЫ +𝟷𝟾 В ЭТОЙ ГРУППЕ ОТКЛЮЧЕНЫ, ЕСЛИ ВЫ АДМИН И ХОТИТЕ АКТИВИРОВАТЬ ИХ, ИСПОЛЬЗУЙТЕ КОМАНДУ #вкл modohorny*'   
 let res = pickRandom(asupan)
 conn.sendHydrated(m.chat, null, null, res, null, null, null, null, [['🔄 СЛЕДУЮЩИЙ 🔄', `/${command}`]], m)}
 handler.help = ['videoxxx']

@@ -1,6 +1,6 @@
 import axios from "axios"
 let handler = async (m, {command, conn}) => {
-if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*[❗ИНФО❗] КОМАНДЫ +𝟷𝟾 В ЭТОЙ ГРУППЕ ОТКЛЮЧЕНЫ, ЕСЛИ ВЫ АДМИН И ХОТИТЕ АКТИВИРОВАТЬ ИХ, ИСПОЛЬЗУЙТЕ КОМАНДУ #enable modohorny*'   
+if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '*[❗ИНФО❗] КОМАНДЫ +𝟷𝟾 В ЭТОЙ ГРУППЕ ОТКЛЮЧЕНЫ, ЕСЛИ ВЫ АДМИН И ХОТИТЕ АКТИВИРОВАТЬ ИХ, ИСПОЛЬЗУЙТЕ КОМАНДУ #вкл modohorny*'   
 if (command == 'nsfwloli') {
 let haha = await conn.getFile(`https://server-api-rey.herokuapp.com/api/wallpaper/nsfwloli?apikey=apirey`)
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 СЛЕДУЮЩИЙ 🔄', `/${command}`]], m)}

@@ -53,11 +53,11 @@ let str = `
 ° ඬ⃟🔊 _a_
 `.trim()
 conn.sendHydrated(m.chat, str, wm, pp, 'https://github.com/KoMaR005', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
-['ОСНОВНОЕ МЕНЮ', '/menu']
+['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']
 ], m)
 }}
-handler.help = ['menu2', 'help2', '?2', 'menuaudios']
+handler.help = ['menu2', 'help2', '?2', 'menuаудио']
 handler.tags = ['main']
-handler.command = /^(меню2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.command = /^(меню2|аудио|menú2|memu2|menuaudio|menuаудио|memuаудио|memuaudio|аудио|audio)$/i
 handler.fail = null
 export default  handler

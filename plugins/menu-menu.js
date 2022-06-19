@@ -71,13 +71,13 @@ let str = `
 
 *<ИНФОРМАЦИЯ О БОТАХ/>*
 
-° ඬ ⃟ 💟 _${usedPrefix}группы_
+° ඬ ⃟ 💟 _${usedPrefix}grupos_
 ° ඬ ⃟ 💟 _${usedPrefix}estado_
-° ඬ ⃟ 💟 _${usedPrefix}инфобот_
+° ඬ ⃟ 💟 _${usedPrefix}infobot_
 ° ඬ ⃟ 💟 _${usedPrefix}donar_
-° ඬ ⃟ 💟 _${usedPrefix}списокгрупп_
-° ඬ ⃟ 💟 _${usedPrefix}владелец_
-° ඬ ⃟ 💟 _${usedPrefix}скрипт_
+° ඬ ⃟ 💟 _${usedPrefix}grouplist_
+° ඬ ⃟ 💟 _${usedPrefix}owner_
+° ඬ ⃟ 💟 _${usedPrefix}script_
 ° ඬ ⃟ 💟 _Bot_ (использовать без префикса)
 
 *<ПРИХОДИ К НАМ И ПОДКЛЮЧИ БОТА В СВОЮ ГРУППУ/>*
@@ -113,20 +113,20 @@ let str = `
 
 *<АКТИВИРОВАТЬ ИЛИ ДЕАКТИВИРОВАТЬ/>*
 
-° ඬ⃟☑️ _${usedPrefix}enable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}disable *welcome*_
-° ඬ⃟☑️ _${usedPrefix}enable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}disable *modohorny*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink*_
-° ඬ⃟☑️ _${usedPrefix}enable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}disable *antilink2*_
-° ඬ⃟☑️ _${usedPrefix}enable *detect*_
-° ඬ⃟☑️ _${usedPrefix}disable *detect*_
-° ඬ⃟☑️ _${usedPrefix}enable *audios*_
-° ඬ⃟☑️ _${usedPrefix}disable *audios*_
-° ඬ⃟☑️ _${usedPrefix}enable *autosticker*_
-° ඬ⃟☑️ _${usedPrefix}disable *autosticker*_
+° ඬ⃟☑️ _${usedPrefix}вкл *welcome*_
+° ඬ⃟☑️ _${usedPrefix}выкл *welcome*_
+° ඬ⃟☑️ _${usedPrefix}вкл *modohorny*_
+° ඬ⃟☑️ _${usedPrefix}выкл *modohorny*_
+° ඬ⃟☑️ _${usedPrefix}вкл *antilink*_
+° ඬ⃟☑️ _${usedPrefix}выкл *antilink*_
+° ඬ⃟☑️ _${usedPrefix}вкл *antilink2*_
+° ඬ⃟☑️ _${usedPrefix}выкл *antilink2*_
+° ඬ⃟☑️ _${usedPrefix}вкл *обнаружить*_
+° ඬ⃟☑️ _${usedPrefix}выкл *обнаружить*_
+° ඬ⃟☑️ _${usedPrefix}вкл *аудио*_
+° ඬ⃟☑️ _${usedPrefix}выкл *аудио*_
+° ඬ⃟☑️ _${usedPrefix}вкл *автостикер*_
+° ඬ⃟☑️ _${usedPrefix}выкл *автостикер*_
 
 *<
 ОТЧЕТЫ ОБ ОШИБКАХ/>*
@@ -403,16 +403,16 @@ _(𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)_
 *<ВЛАДЕЛЕЦ И МОДЕРАТОРЫ/>*
 
 ° ඬ⃟👑 _${usedPrefix}cajafuerte_
-° ඬ⃟👑 _${usedPrefix}enable *restrict*_
-° ඬ⃟👑 _${usedPrefix}disable *restrict*_
-° ඬ⃟👑 _${usedPrefix}enable *autoread*_
-° ඬ⃟👑 _${usedPrefix}disable *autoread*_
-° ඬ⃟👑 _${usedPrefix}enable *public*_
-° ඬ⃟👑 _${usedPrefix}disable *public*_
-° ඬ⃟👑 _${usedPrefix}enable *pconly*_
-° ඬ⃟👑 _${usedPrefix}disable *pconly*_
-° ඬ⃟👑 _${usedPrefix}enable *gconly*_
-° ඬ⃟👑 _${usedPrefix}disable *gconly*_
+° ඬ⃟👑 _${usedPrefix}вкл *ограничивать*_
+° ඬ⃟👑 _${usedPrefix}выкл *ограничивать*_
+° ඬ⃟👑 _${usedPrefix}вкл *авточтение*_
+° ඬ⃟👑 _${usedPrefix}выкл *авточтение*_
+° ඬ⃟👑 _${usedPrefix}вкл *public*_
+° ඬ⃟👑 _${usedPrefix}выкл *public*_
+° ඬ⃟👑 _${usedPrefix}вкл *толькопользователь*_
+° ඬ⃟👑 _${usedPrefix}выкл *толькопользователь*_
+° ඬ⃟👑 _${usedPrefix}вкл *толькогруппа*_
+° ඬ⃟👑 _${usedPrefix}выкл *толькогруппа*_
 ° ඬ⃟👑 _${usedPrefix}banchat_
 ° ඬ⃟👑 _${usedPrefix}unbanchat_
 ° ඬ⃟👑 _${usedPrefix}banuser *<@tag>*_

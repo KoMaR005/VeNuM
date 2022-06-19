@@ -26,7 +26,7 @@ let donar =`
 *┃ wa.me/79773452127*
 *┗ ┅ ━━━━━━━━━ ┅ ━*
 `.trim()
-conn.sendHydrated(m.chat, donar, wm, null, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', null, null, [['ГЛАВНОЕ МЕНЮ', '/menu']], m)}
+conn.sendHydrated(m.chat, donar, wm, null, 'https://www.paypal.me/TheShadowBrokers133', '𝙿𝙰𝚈𝙿𝙰𝙻', null, null, [['ОСНОВНОЕ МЕНЮ', '/menu']], m)}
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)|donar|apoyar$/i

@@ -7,7 +7,7 @@ body: 'ᴛʜᴇ ᴍʏsᴛɪᴄ ﹣ ʙᴏᴛ ﹣ ᴍᴅ',
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}}})
 }
-handler.command = ['sc','script']
+handler.command = ['sc','скрипт']
 handler.help = ['sc']
 handler.tags = ['General']
 export default handler

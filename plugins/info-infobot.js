@@ -12,8 +12,8 @@ const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isCha
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us'))
 const groups = chats.filter(([id]) => id.endsWith('@g.us'))
 const used = process.memoryUsage()
-const { ограничивать } = global.db.data.settings[conn.user.jid] || {}
-const { авточтение } = global.opts
+const { restrict } = global.db.data.settings[conn.user.jid] || {}
+const { autoread } = global.opts
 let old = performance.now()
 let neww = performance.now()
 let speed = neww - old
@@ -21,25 +21,25 @@ let info = `
 ╠═〘 ИНФОРМАЦИЯ О БОТЕ 〙 ═
 ╠
 ╠➥ [🤴🏻] Создатель: *☣ⒹⓞⓃ ⓀⓞⓂⓐⓇ☣*
-╠➥ [#️⃣] Номер Создателя.: *+7 977 345 21 27*
+╠➥ [#️⃣] Номер Создателя: *+7 977 345 21 27*
 ╠➥ [🎳] Префикс: *${usedPrefix}*
 ╠➥ [🔐] Частные чаты: *${chats.length - groups.length}*
 ╠➥ [🦜] Групповой чат: *${groups.length}* 
 ╠➥ [💡] Всего чатов: *${chats.length}* 
-╠➥ [🚀] Активность: *${uptime}*
+╠➥ [🚀] Активность и время работы: *${uptime}*
 ╠➥ [🎩] Пользователи: *${totalreg} числа*
 ╠➥ [👨‍🦯] 𝚅𝙴𝙻𝙾𝙲𝙸𝙳𝙰𝙳: 
 ╠  *${speed}* 
 ╠  *милисекунд*
-╠➥ [☑️] АВТОЧИТАНИЕ: ${авточтение ? '*активирован*' : '*деактивирован*'}
-╠➥ [❗] ОГРАНИЧИВАТЬ: ${ограничивать ? '*активирован*' : '*деактивирован*'} 
+╠➥ [☑️] Авточитание: ${autoread ? '*Активирован*' : '*Деактивирован*'}
+╠➥ [❗] Ограничивать: ${restrict ? '*Активирован*' : '*Деактивирован*'} 
 ╠
-╠═〘 ☆☬VeNoM☬☆ - 𝐁𝐨𝐭 〙 ═
+╠═〘 ☆☬VeNoM☬☆-𝐁𝐨𝐭 〙 ═
 `.trim() 
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: 'Информация о боте',
-body: '☆☬VeNoM☬☆ ﹣ ʙᴏᴛ',         
+title: '𝙸𝙽𝙵𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃',
+body: '☆☬VeNoM☬☆-ʙᴏᴛ',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `https://https://github.com/KoMaR005/`}}})
 }

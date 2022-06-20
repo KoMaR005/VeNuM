@@ -38,7 +38,7 @@ let info = `
 `.trim() 
 conn.reply(m.chat, info, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙸𝙽𝙵𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃',
+title: 'ИНФОРМАЦИЯ О БОТЕ',
 body: '☆☬VeNoM☬☆-ʙᴏᴛ',         
 previewType: 0, thumbnail: fs.readFileSync("./Menu2.jpg"),
 sourceUrl: `https://https://github.com/KoMaR005/`}}})

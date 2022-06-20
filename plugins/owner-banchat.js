@@ -4,6 +4,6 @@ m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚂𝚃𝙴 𝙲𝙷𝙰𝚃 𝙵𝚄�
 }
 handler.help = ['banchat']
 handler.tags = ['owner']
-handler.command = /^banchat$/i
+handler.command = /^банчат$/i
 handler.rowner = true
 export default handler

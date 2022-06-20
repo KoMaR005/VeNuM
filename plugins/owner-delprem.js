@@ -12,7 +12,7 @@ mentionedJid: [who]
 }})}
 handler.help = ['delprem <@user>']
 handler.tags = ['owner']
-handler.command = /^(remove|-|del)prem$/i
+handler.command = /^(remove|-|удалить)премиум$/i
 handler.group = true
 handler.rowner = true
 export default handler

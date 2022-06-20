@@ -54,10 +54,10 @@ footer: `╭══〘 ✯✯✯✯ФуНкЦиЙ✯✯✯✯ 〙═╮
 ┗━━━━━━━━━━━━━┛
 ${author}`,
 title: null,
-buttonText: "𝐒𝐄𝐋𝐄𝐂𝐂𝐈𝐎𝐍𝐄 𝐀𝐐𝐔𝐢",
+buttonText: "ВЫБЕРИТЕ ЗДЕСЬ",
 sections }
 
-let isEnable = /true|enable|(turn)?on|1/i.test(command)
+let isEnable = /true|включить|(turn)?on|1/i.test(command)
 let chat = global.db.data.chats[m.chat]
 let user = global.db.data.users[m.sender]
 let bot = global.db.data.settings[conn.user.jid] || {}
